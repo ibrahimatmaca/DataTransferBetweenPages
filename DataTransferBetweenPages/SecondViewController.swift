@@ -13,10 +13,12 @@ class SecondViewController: UIViewController {
     
     // Veri taşıma esnasında kullanılacak değişken
     var message: String?
+    var person: Person = Person()
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Person ID: \(person.personID!) ---- Person Name: \(person.personName!)")
         //Gönderilen veriyi sayfa yüklenirken label nesnesine ataması yapılıyor
-        messageLabel.text = message!
+        messageLabel.text = message! + " \(person.personName!)"
     }
     
 }

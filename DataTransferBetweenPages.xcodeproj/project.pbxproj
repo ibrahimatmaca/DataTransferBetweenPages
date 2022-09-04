@@ -14,6 +14,7 @@
 		9CFEF8AD28C48F9F004A7D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFEF8AC28C48F9F004A7D9A /* Assets.xcassets */; };
 		9CFEF8B028C48F9F004A7D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFEF8AE28C48F9F004A7D9A /* LaunchScreen.storyboard */; };
 		9CFEF8B828C4913B004A7D9A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEF8B728C4913B004A7D9A /* SecondViewController.swift */; };
+		9CFEF8BC28C4988F004A7D9A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEF8BB28C4988F004A7D9A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9CFEF8AF28C48F9F004A7D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CFEF8B128C48F9F004A7D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CFEF8B728C4913B004A7D9A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9CFEF8BB28C4988F004A7D9A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9CFEF8AE28C48F9F004A7D9A /* LaunchScreen.storyboard */,
 				9CFEF8B128C48F9F004A7D9A /* Info.plist */,
 				9CFEF8B728C4913B004A7D9A /* SecondViewController.swift */,
+				9CFEF8BB28C4988F004A7D9A /* Person.swift */,
 			);
 			path = DataTransferBetweenPages;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFEF8BC28C4988F004A7D9A /* Person.swift in Sources */,
 				9CFEF8B828C4913B004A7D9A /* SecondViewController.swift in Sources */,
 				9CFEF8A828C48F9E004A7D9A /* ViewController.swift in Sources */,
 				9CFEF8A428C48F9E004A7D9A /* AppDelegate.swift in Sources */,

@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         let message:String = messageTextField.text!
         //sonraki sayfada tutmuş olduğumuz değişkene mesajımızın atamasını yapıyoruz
         nextPage.message = message
+        nextPage.person = Person(personID: 1, personName: "İbrahim")
         //burada sayfa geçişinin hangi stilde olacağını belirttik
         nextPage.modalPresentationStyle = .fullScreen
         //geçiş yapılacak sayfa ve animasyon ile geçişi burada ayarladık
